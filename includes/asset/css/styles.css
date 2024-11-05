@@ -1,71 +1,71 @@
 @font-face {
-    font-family: opensanssemibold;
-    src: url(fonts/OpenSansSemibold.eot);
-    src: url(fonts/OpenSansSemibold.eot) format('embedded-opentype'), url(fonts/OpenSansSemibold.woff2) format('woff2'), url(fonts/OpenSansSemibold.woff) format('woff'), url(fonts/OpenSansSemibold.ttf) format('truetype'), url(fonts/OpenSansSemibold.svg#OpenSansSemibold) format('svg')
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    /* src: url(fonts/OpenSansSemibold.eot);
+    src: url(fonts/OpenSansSemibold.eot) format('embedded-opentype'), url(fonts/OpenSansSemibold.woff2) format('woff2'), url(fonts/OpenSansSemibold.woff) format('woff'), url(fonts/OpenSansSemibold.ttf) format('truetype'), url(fonts/OpenSansSemibold.svg#OpenSansSemibold) format('svg') */
 }
 
 @font-face {
-    font-family: opensansregular;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     src: url(fonts/OpenSansRegular.eot);
     src: url(fonts/OpenSansRegular.eot) format('embedded-opentype'), url(fonts/OpenSansRegular.woff2) format('woff2'), url(fonts/OpenSansRegular.woff) format('woff'), url(fonts/OpenSansRegular.ttf) format('truetype'), url(fonts/OpenSansRegular.svg#OpenSansRegular) format('svg')
 }
 
 @font-face {
-    font-family: montserratextralight;
-    src: url(fonts/MontserratExtraLight.eot);
-    src: url(fonts/MontserratExtraLight.eot) format('embedded-opentype'), url(fonts/MontserratExtraLight.woff2) format('woff2'), url(fonts/MontserratExtraLight.woff) format('woff'), url(fonts/MontserratExtraLight.ttf) format('truetype'), url(fonts/MontserratExtraLight.svg#MontserratExtraLight) format('svg')
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    /* src: url(fonts/MontserratExtraLight.eot);
+    src: url(fonts/MontserratExtraLight.eot) format('embedded-opentype'), url(fonts/MontserratExtraLight.woff2) format('woff2'), url(fonts/MontserratExtraLight.woff) format('woff'), url(fonts/MontserratExtraLight.ttf) format('truetype'), url(fonts/MontserratExtraLight.svg#MontserratExtraLight) format('svg') */
 }
 
 @font-face {
-    font-family: opensansbold;
-    src: url(fonts/OpenSansBold.eot);
-    src: url(fonts/OpenSansBold.eot) format('embedded-opentype'), url(fonts/OpenSansBold.woff2) format('woff2'), url(fonts/OpenSansBold.woff) format('woff'), url(fonts/OpenSansBold.ttf) format('truetype'), url(fonts/OpenSansBold.svg#OpenSansBold) format('svg')
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    /* src: url(fonts/OpenSansBold.eot);
+    src: url(fonts/OpenSansBold.eot) format('embedded-opentype'), url(fonts/OpenSansBold.woff2) format('woff2'), url(fonts/OpenSansBold.woff) format('woff'), url(fonts/OpenSansBold.ttf) format('truetype'), url(fonts/OpenSansBold.svg#OpenSansBold) format('svg') */
 }
 
 @font-face {
-    font-family: opensanslight;
-    src: url(fonts/OpenSansLight.eot);
-    src: url(fonts/OpenSansLight.eot) format('embedded-opentype'), url(fonts/OpenSansLight.woff2) format('woff2'), url(fonts/OpenSansLight.woff) format('woff'), url(fonts/OpenSansLight.ttf) format('truetype'), url(fonts/OpenSansLight.svg#OpenSansLight) format('svg')
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    /* src: url(fonts/OpenSansLight.eot);
+    src: url(fonts/OpenSansLight.eot) format('embedded-opentype'), url(fonts/OpenSansLight.woff2) format('woff2'), url(fonts/OpenSansLight.woff) format('woff'), url(fonts/OpenSansLight.ttf) format('truetype'), url(fonts/OpenSansLight.svg#OpenSansLight) format('svg') */
 }
 
 @font-face {
-    font-family: montserratregular;
-    src: url(fonts/MontserratRegular.eot);
-    src: url(fonts/MontserratRegular.eot) format('embedded-opentype'), url(fonts/MontserratRegular.woff2) format('woff2'), url(fonts/MontserratRegular.woff) format('woff'), url(fonts/MontserratRegular.ttf) format('truetype'), url(fonts/MontserratRegular.svg#MontserratRegular) format('svg')
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    /* src: url(fonts/MontserratRegular.eot);
+    src: url(fonts/MontserratRegular.eot) format('embedded-opentype'), url(fonts/MontserratRegular.woff2) format('woff2'), url(fonts/MontserratRegular.woff) format('woff'), url(fonts/MontserratRegular.ttf) format('truetype'), url(fonts/MontserratRegular.svg#MontserratRegular) format('svg') */
 }
 
 @font-face {
-    font-family: montserratsemibold;
-    src: url(fonts/MontserratSemiBold.eot);
-    src: url(fonts/MontserratSemiBold.eot) format('embedded-opentype'), url(fonts/MontserratSemiBold.woff2) format('woff2'), url(fonts/MontserratSemiBold.woff) format('woff'), url(fonts/MontserratSemiBold.ttf) format('truetype'), url(fonts/MontserratSemiBold.svg#MontserratSemiBold) format('svg')
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    /* src: url(fonts/MontserratSemiBold.eot);
+    src: url(fonts/MontserratSemiBold.eot) format('embedded-opentype'), url(fonts/MontserratSemiBold.woff2) format('woff2'), url(fonts/MontserratSemiBold.woff) format('woff'), url(fonts/MontserratSemiBold.ttf) format('truetype'), url(fonts/MontserratSemiBold.svg#MontserratSemiBold) format('svg') */
 }
 
 .openregular {
-    font-family: opensansregular
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .openlight {
-    font-family: opensanslight
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .openbold {
-    font-family: opensansbold
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .opensemibold {
-    font-family: opensanssemibold
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .montextralight {
-    font-family: montserratextralight
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .montregular {
-    font-family: montserratregular
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .montsemibold {
-    font-family: montserratsemibold
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .color-black {
