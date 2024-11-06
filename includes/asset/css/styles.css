@@ -5848,5 +5848,18 @@ input.form-control.style-1 {
     .ga-bp {
         margin-top: 10px;
     }
+
+    section.d-flex {
+        height: auto; /* Remove fixed height on mobile */
+        padding-top: 0; /* Remove padding at the top */
+        padding-bottom: 0; /* Remove padding at the bottom */
+    }
+    h2 {
+        margin-top: 0; /* Remove extra space above heading */
+    }
+    hr {
+        margin: 5px auto; /* Adjust hr margin as needed */
+    }
+
 }
 
