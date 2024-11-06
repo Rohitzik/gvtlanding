@@ -3069,8 +3069,8 @@ function enableother(val) {
                 // Base values: ₹499 corresponds to 20 saplings
                 const baseDonation = 499;
                 const baseSaplings = 20;
-                const incrementAmount = 500;
-                const saplingsPerIncrement = 20;
+                const incrementAmount = 100; // Now increments are every ₹100
+                const saplingsPerIncrement = 4; // Each ₹100 adds 4 saplings
             
                 // Calculate the number of increments above the base donation
                 const increments = Math.floor((donationAmount - baseDonation) / incrementAmount);
@@ -3270,8 +3270,8 @@ function changeamt(val) {
             // Base values: ₹499 corresponds to 20 saplings
             const baseDonation = 499;
             const baseSaplings = 20;
-            const incrementAmount = 500;
-            const saplingsPerIncrement = 20;
+            const incrementAmount = 100; // Now increments are every ₹100
+            const saplingsPerIncrement = 4; // Each ₹100 adds 4 saplings
         
             // Calculate the number of increments above the base donation
             const increments = Math.floor((donationAmount - baseDonation) / incrementAmount);

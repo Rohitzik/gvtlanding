@@ -4838,7 +4838,7 @@ button.btn.btn_donate {
 .amount_text {
     font-size: 16px;
     font-weight: 700;
-    color: #004e80 !important;
+    color: #004e80;
 }
 
 .sponspor_text {
