@@ -1,3 +1,7 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+
+}
 @font-face {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
     /* src: url(fonts/OpenSansSemibold.eot);
@@ -6,8 +10,8 @@
 
 @font-face {
     font-family: Georgia, 'Times New Roman', Times, serif !important;
-    src: url(fonts/OpenSansRegular.eot);
-    src: url(fonts/OpenSansRegular.eot) format('embedded-opentype'), url(fonts/OpenSansRegular.woff2) format('woff2'), url(fonts/OpenSansRegular.woff) format('woff'), url(fonts/OpenSansRegular.ttf) format('truetype'), url(fonts/OpenSansRegular.svg#OpenSansRegular) format('svg')
+    /* src: url(fonts/OpenSansRegular.eot);
+    src: url(fonts/OpenSansRegular.eot) format('embedded-opentype'), url(fonts/OpenSansRegular.woff2) format('woff2'), url(fonts/OpenSansRegular.woff) format('woff'), url(fonts/OpenSansRegular.ttf) format('truetype'), url(fonts/OpenSansRegular.svg#OpenSansRegular) format('svg') */
 }
 
 @font-face {
