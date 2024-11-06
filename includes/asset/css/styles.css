@@ -5846,19 +5846,19 @@ input.form-control.style-1 {
         margin-bottom: 15px; 
     }
     .ga-bp {
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     section.d-flex {
-        height: auto; /* Remove fixed height on mobile */
-        padding-top: 0; /* Remove padding at the top */
-        padding-bottom: 0; /* Remove padding at the bottom */
+        height: auto; 
+        padding-top: 0; 
+        padding-bottom: 0; 
     }
     h2 {
-        margin-top: 0; /* Remove extra space above heading */
+        margin-top: 0; 
     }
     hr {
-        margin: 5px auto; /* Adjust hr margin as needed */
+        margin: 5px auto; 
     }
 
 }
