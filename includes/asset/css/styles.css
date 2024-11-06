@@ -5836,3 +5836,9 @@ input.form-control.style-1 {
 .visually-hidden{
     opacity: 0;
 }
+
+@media (max-width: 768px) {
+    .image-container {
+        margin-bottom: 15px; 
+    }
+}
