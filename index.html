@@ -120,7 +120,12 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <form class="donationform user-options" id="form_donation">
+                    <form 
+                        class="donationform user-options"
+                        id="form_donation"
+                        method="post" 
+                        action="https://www.globalvikastrust.org/donation-confirmation-dev.php"
+                    >
                         <div class="contribution_form_section">
                             <div class="row">
                                 <div class="col-sm-12">
@@ -338,19 +343,19 @@
                                         </select>
                                     </div>
                                     <div class="col-sm-8">
-                                        <input placeholder="Full Name*" name="first_name" id="first_name"
+                                        <input placeholder="Full Name*" name="frmname" id="first_name"
                                             class="fname full" value onfocus="chk_citizenshipsel();">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <input oninput="this.className = ''" placeholder="Mobile Number"
-                                            name="alternate_mobile" id="alternate_mobile" type="tel" class="full" value
+                                            name="frmmobno" id="alternate_mobile" type="tel" class="full" value
                                             onfocus="chk_citizenshipsel();">
                                     </div>
 
                                     <div class="col-sm-6 ga-bp">
-                                        <input placeholder="Email" name="email" id="email" type="email" class="full"
+                                        <input placeholder="Email" name="frmemail" id="email" type="email" class="full"
                                             onfocus="chk_citizenshipsel();" value>
                                     </div>
                                 </div>
@@ -376,7 +381,7 @@
                                 </div> -->
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <input id="pan" name="pan" maxlength="10" type="text"
+                                        <input id="pan" name="frmpanno" maxlength="10" type="text"
                                             placeholder="PAN Card No. *" class="full pan-card-num" value
                                             style="text-transform: uppercase;" onkeyup="chkcitizenshipsel()"
                                             onfocus="chk_citizenshipsel();">
@@ -384,7 +389,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-6" style="margin-bottom: 10px;">
                                         <input type="hidden" id="country_id" name="country_id" value="1">
-                                        <input type="number" placeholder="Pin Code" id="postal_code" name="postal_code"
+                                        <input type="number" placeholder="Pin Code" id="postal_code" name="frmpincode"
                                             class="full" onchange="GetDetailsfrompincode();" value>
                                     </div>
 
@@ -392,11 +397,11 @@
 
                                 <div class="row">
                                     <div class="col-sm-6 col-lg-6" style="margin-bottom: 10px;">
-                                        <input placeholder="City" name="city" id="city" class="form-control"
+                                        <input placeholder="City" name="frmcity" id="city" class="form-control"
                                             type="text">
                                     </div>
                                     <div class="col-sm-6 col-lg-6" style="margin-bottom: 10px;">
-                                        <select id="state" name="state" class="form-control">
+                                        <select id="state" name="frmstate" class="form-control">
                                             <option value="">Select State</option>
                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
                                             <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -442,7 +447,7 @@
 
                                 <div class="row">
                                     <div class="col-sm-12">
-                                        <input style="line-height: 3;" id="address" placeholder="Address" name="address"
+                                        <input style="line-height: 3;" id="address" placeholder="Address" name="frmadd1"
                                             class="full" value>
                                     </div>
                                 </div>
