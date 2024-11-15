@@ -5864,6 +5864,29 @@ input.form-control.style-1 {
 }
 
 
+/* moving button  */
+
+.moreless-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #228B22;
+    text-decoration: none;
+    cursor: pointer;
+    animation: shake 1s ease-in-out infinite;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+
+
 
 
 /* new navabar */
@@ -5883,10 +5906,11 @@ input.form-control.style-1 {
 }
 
 .header-image img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
+    text-align: right;
 }
 
 @media (max-width: 768px) {
@@ -5910,41 +5934,10 @@ input.form-control.style-1 {
     }
 
     .header-image img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 }
  
 
 
-/* moving button  */
-
-
-.moreless-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: transparent;
-    background: linear-gradient(90deg, #006400, #228B22, #006400);
-    background-size: 200%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    animation: colorSlide 2s infinite linear;
-}
-
-@keyframes colorSlide {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 100%;
-    }
-}
-
-.moreless-button:hover {
-    animation-duration: 1s;
-}
