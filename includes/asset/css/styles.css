@@ -5914,3 +5914,37 @@ input.form-control.style-1 {
         height: 50px;
     }
 }
+
+
+
+/* moving button  */
+
+
+.moreless-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: transparent;
+    background: linear-gradient(90deg, #006400, #228B22, #006400);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    animation: colorSlide 2s infinite linear;
+}
+
+@keyframes colorSlide {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+.moreless-button:hover {
+    animation-duration: 1s;
+}
