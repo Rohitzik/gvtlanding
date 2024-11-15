@@ -5939,5 +5939,14 @@ input.form-control.style-1 {
     }
 }
  
+.gvtfont {
+    font-size: 10px;
+    font-weight: bold;
+}
 
-
+@media (max-width: 767px) {
+    .gvtfont {
+        font-size: 8px;
+        font-weight: bold;
+    }
+}
