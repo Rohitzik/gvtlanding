@@ -5867,31 +5867,21 @@ input.form-control.style-1 {
 
 
 /* new navabar */
-/* Main Navbar Styling */
 .navbar {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Logo and Image should not grow */
-.navbar-brand,
-.header-image {
-    flex-shrink: 0;
-}
-
-/* Centered Text Styling */
 .header-text {
-    color: red; /* Ensure text color is red */
+    color: red;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     flex-grow: 1;
-    margin: 0; /* Remove margin for better centering */
 }
 
-/* Image Styling */
 .header-image img {
     width: 60px;
     height: 60px;
@@ -5899,30 +5889,28 @@ input.form-control.style-1 {
     object-fit: cover;
 }
 
-/* Mobile View Adjustments */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-brand,
+    .header-image {
+        order: 1;
     }
 
     .header-text {
-        font-size: 0.7rem;
+        font-size: 1.2rem;
+        margin: 0;
+        order: 2;
+        flex-grow: 1;
+        text-align: center;
     }
 
     .header-image img {
         width: 50px;
         height: 50px;
-    }
-}
-
-/* Desktop View Center Alignment */
-@media (min-width: 769px) {
-    .navbar {
-        justify-content: space-around;
-    }
-
-    .header-text {
-        text-align: center;
     }
 }
